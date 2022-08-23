@@ -11,7 +11,7 @@ public class Hello {
 
     @GetMapping
     public String main() {
-        return "hel65656jnjnlo";
+        return "hello";
 
     }
 
