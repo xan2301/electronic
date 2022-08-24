@@ -38,4 +38,13 @@ public class MobilePhone {
     public void setProductionYear(int productionYear) {
         this.productionYear = productionYear;
     }
+
+    @Override
+    public String toString() {
+        return "MobilePhone{" +
+                "system='" + system + '\'' +
+                ", resolution=" + resolution +
+                ", productionYear=" + productionYear +
+                '}';
+    }
 }
